@@ -25,7 +25,7 @@ cd trajectory
 
 2. **Install dependencies:**
 ```bash
-poetry install
+poetry install --no-root
 ```
 
 ## 🧪 Running Tests
