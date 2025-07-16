@@ -4,7 +4,9 @@ from pydantic import BaseModel
 
 
 class Timeslot(BaseModel):
-    id: int  # noqa
-    day_id: int
-    start: time
-    end: time
+	"""Model representing a time slot within a working day."""
+
+	id: int  # noqa
+	day_id: int
+	start: time
+	end: time

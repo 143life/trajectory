@@ -7,7 +7,9 @@ from pydantic import BaseModel
 
 
 class Day(BaseModel):
-    id: int  # noqa
-    date: date
-    start: time
-    end: time
+	"""Model representing a working day with start and end times."""
+
+	id: int  # noqa
+	date: date
+	start: time
+	end: time
